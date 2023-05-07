@@ -1,0 +1,29 @@
+:root {
+  background: indigo;
+  color: hotpink;
+}
+
+:any-link {
+  color: indigo;
+  background: hotpink;
+  box-shadow: 0 0 10vmin 0 coral;
+}
+
+:focus {
+  outline: thick groove;
+  box-shadow: 0 0 0 2vmin coral;
+}
+
+:active {
+  outline: 1ch dotted;
+}
+
+::selection {
+  background: #ec0;
+  color: indigo;
+}
+
+mark {
+  background: salmon;
+  color: indigo;
+}

@@ -1,0 +1,39 @@
+html {
+  font-size: max(3ch, 2vmax + 2vmin);
+  line-height: 2;
+}
+
+body { 
+  margin: 1ch;
+  overflow-wrap: anywhere;
+}
+
+a { 
+  border-radius: 1ch;
+  box-sizing: border-box;
+  display: inline-flex;
+  margin: 1ch;
+  margin-right: auto;
+  padding: 1ch;
+}
+
+.howl {
+  display: flex;
+  flex-flow: column;
+}
+
+.howl > * {
+  margin: auto;
+}
+
+@media (orientation: portrait) {
+  .live {
+    display: flex;
+    flex-flow: column;
+    margin-block: 1em;
+  }
+
+  .moan {
+    writing-mode: sideways-lr;
+  }
+}
